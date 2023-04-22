@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open('C:/Users/91831/Desktop/ml project/trained_model.sav','rb'))
+model = pickle.load(open('trained_model.sav','rb'))
 
 st.title('crop to cultivate? :seedling:')
 
